@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
 
 # To start
@@ -55,3 +56,7 @@ Modern browsers and IE 10+.
 
 # License
 [MIT](http://opensource.org/licenses/MIT)
+=======
+# NEMonitor
+New Energy Vehicle Remote Monitor
+>>>>>>> ae869ee4fa8f1a97a415259fae1aa10089a887a7
