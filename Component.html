@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <!-- -->    
+    </div>
+</body>
+<script>
+    import Vue from 'vue'
+    // 1.创建一个组件构造器
+    var myComponent = Vue.extend({template: '<div>This is my first component!</div>'})
+    // 2.注册组件，并指定组件的标签，组件的HTML标签为<my-component>
+    Vue.component('my-component', myComponent)
+    
+    let vm = new Vue({el: '#app'})
+
+    Vue.use({vm})
+</script>
+</html>
